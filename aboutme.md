@@ -6,7 +6,7 @@ subtitle: Why you'd want to go on a date with me
 
 My name is Praneeth Munuganti. I have the following qualities:
 
-- I would love to date someone of 80kgs 
+- 80kgs eppudu avtaava ani waiting
 - Puchu/missing pannu unna parledu :p
 
 What else do you need?
