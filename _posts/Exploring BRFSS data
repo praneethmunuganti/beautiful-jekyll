@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Exploring the BRFSS data"
-output: 
-  html_document: 
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
+
 ---
 
 ## Setup
