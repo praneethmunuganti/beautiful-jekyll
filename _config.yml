@@ -24,7 +24,7 @@ description: Live Love Laugh
 # List of links in the navigation bar
 navbar-links:
   Home: "index.html"
-  Projects: "projects.md"
+  Projects: "projects"
   Resume:
   Contact Me: "contactme"
  
