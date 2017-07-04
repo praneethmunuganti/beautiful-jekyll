@@ -10,3 +10,7 @@ title: Projects
 > BRFSS is an ongoing surveillance system designed to measure behavioral risk factors for the non-institutionalized adult population (18 years of age and older) residing in the US.
 
 >  BRFSS dataset contains 330 variables and 491775 observations. [Click here](/BRFSS.html) to view some analysis I have done.
+
+#### 2. Data Visualization - Tableau
+> [Click here](https://public.tableau.com/profile/praneethmunuganti#!/) to view some data visualizations I have done using Tableau public
+
