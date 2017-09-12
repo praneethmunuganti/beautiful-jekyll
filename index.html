@@ -1,13 +1,39 @@
 ---
 layout: page
 title: Hi, I'm Praneeth
-subtitle: Data/Business Analyst | R | Tableau | SAS
+subtitle: Data/Business Analyst | R | Tableau | Python | SAS
 use-site-title: true
 bigimg: "/img/data5.jpg"
 
 ---
 <!DOCTYPE html>
 <html>
+<head>
+	<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+</style>
+	</head>
 <body>
 
 <h1></h1>
@@ -18,18 +44,31 @@ I'm <b>Praneeth Munuganti</b>, a Data/Business Analyst enthusiast currently purs
 
 <h2>About me</h2>
 After undergrad I started my career as an IT professional at Infosys Ltd, Mysore, India.
-
-My job profile as a systems engineer at Infosys was to develop an enterprise application using various technologies.
-
+	My job profile as a systems engineer at Infosys was to develop an enterprise application using various technologies.
+<p>
 At Infosys I realized my potential to quickly understand technical, managerial aspects of IT and the relation between them. 
 
-It is this realized potential and my passion towards leading in Techno-Managerial roles that led me to pursue my Masters in [Information Technology and Management](http://jindal.utdallas.edu/isom/information-systems-programs/ms-information-technology/) at The University of Texas at Dallas. 
+It is this realized potential and my passion towards leading in Techno-Managerial roles that led me to pursue my Masters 
+	in <a href= "http://jindal.utdallas.edu/isom/information-systems-programs/ms-information-technology/" target="_blank">Information Technology and Management</a> 
+	at The University of Texas at Dallas. </p >
 
 Concentrating in Business Intelligence and Analytics I have learned a wide range of technical and managerial subjects at UT Dallas
 
-#### A couple of things I have learned/done
+<h3> A couple of things I have learned/done </h3>
+ 
+<button class="accordion">Data analysis</button>
+<div class="panel">
 
+	
+</div>
 
+<button class="accordion">Cloud computing</button>
+<div class="panel">
+
+	
+</div>
+
+<ul>
 * Data cleaning, sampling, wrangling along with statistical and predictive analysis
 * Data visualization using tools like Tableau, R (ggplot2) and depicting complex data in a visually appealing and simple format
 * Worked on various stages of Software Development Life Cycle (SDLC)
@@ -38,12 +77,12 @@ Concentrating in Business Intelligence and Analytics I have learned a wide range
 *  Designed data warehouse and implemented SSIS, SSAS, SSRS using MS Visual Studio
 *  Used technologies like HTML, Java, AngularJS to develop an enterprise web application
 *  Worked on agile and kanban modes of software development
+</ul>
 
+<h4> My Motto </h4>
 
-#### My Motto
-
->“Live as if you were to die tomorrow. Learn as if you were to live forever.” 
-― Mahatma Gandhi
+<b>“Live as if you were to die tomorrow. Learn as if you were to live forever.” </b>
+―<i> Mahatma Gandhi </i>
 
 
 <!-- <h2>I am available to work</h2>
@@ -51,7 +90,24 @@ Concentrating in Business Intelligence and Analytics I have learned a wide range
 As a student on F1 visa I am available to work as an Intern (on CPT) and as a Full-time (on OPT). 
 	Feel free to contact me <a href="/contactme">here</a> 
 	</p>	 -->
-</body>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+	</body>
 </html>
 
 <div class="posts-list">
