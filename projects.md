@@ -18,5 +18,5 @@ title: PROJECTS
 >  BRFSS dataset contains 330 variables and 491775 observations. [Click here](/BRFSS.html) to view some analysis I have done.
 
 #### 4. Data Visualization - Tableau
-> <a href="https://public.tableau.com/profile/praneethmunuganti#!/" target="_blank">Click here</a> to view some data visualizations I have done using Tableau public
+> <a href="https://public.tableau.com/profile/praneethmunuganti#!/" target="_blank">Click here</a> to view my Tableau public profile.
 
